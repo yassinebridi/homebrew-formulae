@@ -1,5 +1,5 @@
 class Yabai < Formula
-  desc "A tiling window manager for macOS based on binary space partitioning."
+  desc "A tiling window manager for mac based on binary space partitioning."
   homepage "https://github.com/koekeishiya/yabai"
   head "https://github.com/vespakoen/yabai.git", :branch => "11.6-tmp-fix"
   version "git"
