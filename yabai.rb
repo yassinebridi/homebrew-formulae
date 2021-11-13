@@ -13,7 +13,7 @@ class Yabai < Formula
 
     ENV.deparallelize
 
-    system "make", "-f", "makefile.arm64", "install"
+    system "make", "install"
 
     bin.install "#{buildpath}/bin/yabai"
     (pkgshare/"examples").install "#{buildpath}/examples/yabairc"
